@@ -14,10 +14,7 @@ refs.form.addEventListener('submit', onFormSubmit);
 
 refs.form.addEventListener('input', throttle(onInputHandle, 500));
 
-refs.form.addEventListener('reset', () => {
- 
 
-})
 
 
 function onFormSubmit(evt) {
